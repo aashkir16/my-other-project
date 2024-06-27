@@ -1,0 +1,52 @@
+date > shows current motnh
+cal > shows calendar
+Navigating:
+pwd > prints current working directory
+cd < cd /usr/bin, cd .., .  > Change directory
+ls < -lah > list directory content
+file <file File  > Determine file type
+less < less Fila > view file content
+less < less /etc/passwd >
+
+Manipulating Files and Directories:
+cp < cp file1 file2 > Copy files and directories
+mv <mv item1 item 2 > Move/rename files and directories
+mkdir < mkdir newdirectory directory 1 > Create directories
+ln < ln file link > Create hard and symbolic links
+
+Working with Commands:
+type > indicate how command name is interpreted
+which > Display which executable program will be executed
+help > Get help for shell builtins
+man > Display a command page
+apropos > Display a list appropriate commands
+info  > Display a command 's info entry
+whatis > Display one-line manual page descriptions
+alias > Create an allias for a command
+
+Coomand can be one of four:
+1. Executable program
+2. Command built into shell
+3. Shell function
+4. Alias
+
+Redirection Commands or I/O redirection:
+cat > concatenate files
+Sort > sort lines of text
+uniq > Report of omit repeated lines
+grep > Print lines matching a pattern
+wc > print newline, word & byte counts for each file
+head > output the first part of a file
+tail > output the last part of a file
+tee > Read from standard input and write to standard output and files 
+ls -l /usr/bin > ls-output.txt
+
+Seeing the words the way shell sees the words:
+echo "This is a test"
+echo D* > prints Desktop, Documents and Downloads directories
+echo b > prints bin
+echo s* > Display files and directories contained "s"
+echo ~ > display directory
+echo $((2+3)) > outputs 5
+echo $USER > prints user
+printenv |less > display environment
